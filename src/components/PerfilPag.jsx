@@ -1,9 +1,12 @@
-import React, {useEffect, useState} from "react";
+import React,{useEffect,useState} from "react";
+import { Link } from "react-router-dom";
 
-const PerfilPag = () =>{
+const PerfilPag =() =>{
     return(
-        <h1>Pagina de Perfil</h1>
+        <div>
+            <h1>Binvenido Perfil</h1>
+            <Link to={"/"}>Ir a perfil</Link><br />
+        </div>
     )
 }
-
 export default PerfilPag
